@@ -1,0 +1,15 @@
+get-default :取得当前的target
+set-default :设置指定的target为默认的运行级别
+isolate :切换到指定的运行级别===init
+
+init级别	systemctl target
+0	shutdown.target
+1	emergency.target
+2	rescure.target
+3	multi-user.target
+4	无
+5	graphical.target
+6	无
+
+
+systemctl set-default [运行级别]
