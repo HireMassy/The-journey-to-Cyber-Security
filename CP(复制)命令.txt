@@ -1,7 +1,0 @@
-此cp非彼cp
-
-复制单个文件(把/root/home/Desktop/1.txt复制到/home/hire/)
-cp /root/home/Desktop/1.txt /home/hire
-
-复制整个文件夹(给上-r参数)（把/root/home/hire/整个hire文件复制到/root/home/Desktop/）
-cp -r /root/home/hire /root/home/Desktop
