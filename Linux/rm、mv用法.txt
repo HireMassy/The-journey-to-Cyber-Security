@@ -1,0 +1,11 @@
+rm删除文件或目录
+  -r递归删除整个文件夹
+  -f强制删除不提示
+rm -rf [文件夹]
+
+
+mv移动文件与目录重命名
+把桌面下的1.txt重命名为2.txt
+mv 1.txt 2.txt
+把桌面的2.txt移动到/home/hire/
+mv 2.txt /home/hire
