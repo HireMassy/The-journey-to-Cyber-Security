@@ -1,0 +1,16 @@
+创建：useradd [用户名]
+删除：userdel [用户名]
+
+设置密码：passwd
+
+创建组：groupadd [组名]
+删除组：groupdel[组名]
+
+创建一个hire用户，设置密码，并把hire用户加入Hao组（需要-r参数）
+useradd hire
+passwd hire 
+groupdel Hao
+group -r hire Hao
+
+
+

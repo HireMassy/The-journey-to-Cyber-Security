@@ -1,0 +1,23 @@
+find指令将从指定目录向下递归地遍历其各个子目录，将满足条件的文件或目录显示在终端
+  -name		find /home -name *.txt
+  -user
+  -size
+     +(大于)  find / +20M（查找根目录下大于20兆的文件）
+     -(小于)
+     =(等于)
+
+
+locate可以快速定位文件路径，locate指令利用事先简历的系统中所有文件名称及路径的locate
+数据库实现快速定位的文件。locate指令无需遍历整个文件系统，查询速度较快。为
+了保证查询结果的准确度，管理员必须定期更新locate时刻。
+
+locate搜索文件（在第一执行前必须使用updatedb创建locate数据库）
+假如我把Aao_O.py放在/home/hire文件夹下，当我们只知道文件名的时候就可以用locate命令
+locate Aao_O.py  ——>/home/hire/Aao_O.py
+
+grep 和 管道符 |
+grep过滤查找，一般情况下grep和管道符并在一起用
+    -n显示行号
+    -i忽略大小写
+假如我要查询/root/Desktop/1.txt下带有s的内容，并且带有行号，忽略大小写
+cat /root/Desktop/1.txt | grep -ni 's'
